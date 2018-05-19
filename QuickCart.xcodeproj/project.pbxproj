@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E354B3BE20920C74009A9514 /* Alamofire-master in Resources */ = {isa = PBXBuildFile; fileRef = E354B3B620920C73009A9514 /* Alamofire-master */; };
 		E39E51042079489D0025618F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39E51032079489D0025618F /* AppDelegate.swift */; };
-		E39E51062079489D0025618F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39E51052079489D0025618F /* ViewController.swift */; };
+		E39E51062079489D0025618F /* VendorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39E51052079489D0025618F /* VendorViewController.swift */; };
 		E39E51092079489D0025618F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39E51072079489D0025618F /* Main.storyboard */; };
 		E39E510B2079489D0025618F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39E510A2079489D0025618F /* Assets.xcassets */; };
 		E39E510E2079489D0025618F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39E510C2079489D0025618F /* LaunchScreen.storyboard */; };
 		E39E51192079489E0025618F /* QuickCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39E51182079489E0025618F /* QuickCartTests.swift */; };
 		E39E51242079489E0025618F /* QuickCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39E51232079489E0025618F /* QuickCartUITests.swift */; };
+		E39E513220795DB10025618F /* VendorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39E513120795DB10025618F /* VendorTableViewCell.swift */; };
+		E39EC7AA208F8F340039D020 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39EC7A9208F8F340039D020 /* ShoppingCart.swift */; };
+		E39EC7AC208F90D50039D020 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39EC7AB208F90D50039D020 /* ShoppingCartViewController.swift */; };
+		E3C2828420796ED800755EA5 /* VendorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2828320796ED800755EA5 /* VendorTableViewController.swift */; };
+		F602EAEE20915FF4005135CD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F602EADF20915FAB005135CD /* Alamofire.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F63657B7208E5D58006A77C3 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657B6208E5D58006A77C3 /* GoogleMapsBase.framework */; };
+		F63657B9208E5D68006A77C3 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657B8208E5D68006A77C3 /* GoogleMaps.framework */; };
+		F63657BB208E5D73006A77C3 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657BA208E5D73006A77C3 /* GoogleMapsCore.framework */; };
+		F63657BD208E5DBA006A77C3 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F63657BC208E5DBA006A77C3 /* GoogleMaps.bundle */; };
+		F63657C0208E5DFE006A77C3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657BF208E5DFE006A77C3 /* Accelerate.framework */; };
+		F63657C2208E5E09006A77C3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657C1208E5E09006A77C3 /* CoreData.framework */; };
+		F63657C4208E5E26006A77C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657C3208E5E26006A77C3 /* CoreGraphics.framework */; };
+		F63657C6208E5E2D006A77C3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657C5208E5E2D006A77C3 /* CoreImage.framework */; };
+		F63657C8208E5E52006A77C3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657C7208E5E52006A77C3 /* CoreLocation.framework */; };
+		F63657CA208E5E66006A77C3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657C9208E5E66006A77C3 /* CoreTelephony.framework */; };
+		F63657CC208E5E6D006A77C3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657CB208E5E6D006A77C3 /* CoreText.framework */; };
+		F63657CE208E5E73006A77C3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657CD208E5E73006A77C3 /* GLKit.framework */; };
+		F63657D0208E5E79006A77C3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657CF208E5E79006A77C3 /* ImageIO.framework */; };
+		F63657D2208E5E82006A77C3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657D1208E5E82006A77C3 /* libc++.tbd */; };
+		F63657D4208E5E8B006A77C3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657D3208E5E8B006A77C3 /* libz.tbd */; };
+		F63657D6208E5E93006A77C3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657D5208E5E93006A77C3 /* OpenGLES.framework */; };
+		F63657D8208E5E9A006A77C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657D7208E5E9A006A77C3 /* QuartzCore.framework */; };
+		F63657DA208E5EA1006A77C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657D9208E5EA1006A77C3 /* SystemConfiguration.framework */; };
+		F63657DC208E5EA8006A77C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63657DB208E5EA8006A77C3 /* UIKit.framework */; };
+		F63657DE208E658F006A77C3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63657DD208E658F006A77C3 /* MapViewController.swift */; };
+		F664EDAE20A6555900975298 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664EDAD20A6555900975298 /* AVFoundation.framework */; };
+		F672EBBA20910C17007DBE63 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672EBB920910C17007DBE63 /* FoodTableViewCell.swift */; };
+		F6BE0CAE20A6894500589272 /* Rock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6BE0CAD20A6894400589272 /* Rock.mp3 */; };
+		F6BE0CAF20A6894500589272 /* Rock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6BE0CAD20A6894400589272 /* Rock.mp3 */; };
+		F6BE0CB020A6894500589272 /* Rock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6BE0CAD20A6894400589272 /* Rock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +62,69 @@
 			remoteGlobalIDString = E39E50FF2079489D0025618F;
 			remoteInfo = QuickCart;
 		};
+		F602EADE20915FAB005135CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		F602EAE020915FAB005135CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		F602EAE220915FAB005135CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		F602EAE420915FAB005135CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		F602EAE620915FAB005135CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		F602EAE820915FAB005135CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		F602EAEA20915FAB005135CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		F602EAEC20915FEA005135CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E354B3B620920C73009A9514 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Alamofire-master"; sourceTree = "<group>"; };
 		E39E51002079489D0025618F /* QuickCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39E51032079489D0025618F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E39E51052079489D0025618F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E39E51052079489D0025618F /* VendorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorViewController.swift; sourceTree = "<group>"; };
 		E39E51082079489D0025618F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E39E510A2079489D0025618F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E39E510D2079489D0025618F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +135,34 @@
 		E39E511F2079489E0025618F /* QuickCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39E51232079489E0025618F /* QuickCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCartUITests.swift; sourceTree = "<group>"; };
 		E39E51252079489E0025618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39E513120795DB10025618F /* VendorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorTableViewCell.swift; sourceTree = "<group>"; };
+		E39EC7A9208F8F340039D020 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		E39EC7AB208F90D50039D020 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		E3C2828320796ED800755EA5 /* VendorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorTableViewController.swift; sourceTree = "<group>"; };
+		F602EAD320915FAA005135CD /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		F63657B6208E5D58006A77C3 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		F63657B8208E5D68006A77C3 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		F63657BA208E5D73006A77C3 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		F63657BC208E5DBA006A77C3 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		F63657BF208E5DFE006A77C3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F63657C1208E5E09006A77C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F63657C3208E5E26006A77C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F63657C5208E5E2D006A77C3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F63657C7208E5E52006A77C3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F63657C9208E5E66006A77C3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F63657CB208E5E6D006A77C3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F63657CD208E5E73006A77C3 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F63657CF208E5E79006A77C3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F63657D1208E5E82006A77C3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F63657D3208E5E8B006A77C3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F63657D5208E5E93006A77C3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F63657D7208E5E9A006A77C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F63657D9208E5EA1006A77C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F63657DB208E5EA8006A77C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F63657DD208E658F006A77C3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F664EDAD20A6555900975298 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F672EBB920910C17007DBE63 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		F6BE0CAD20A6894400589272 /* Rock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rock.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +170,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F664EDAE20A6555900975298 /* AVFoundation.framework in Frameworks */,
+				F602EAEE20915FF4005135CD /* Alamofire.framework in Frameworks */,
+				F63657DC208E5EA8006A77C3 /* UIKit.framework in Frameworks */,
+				F63657DA208E5EA1006A77C3 /* SystemConfiguration.framework in Frameworks */,
+				F63657D8208E5E9A006A77C3 /* QuartzCore.framework in Frameworks */,
+				F63657D6208E5E93006A77C3 /* OpenGLES.framework in Frameworks */,
+				F63657D4208E5E8B006A77C3 /* libz.tbd in Frameworks */,
+				F63657D2208E5E82006A77C3 /* libc++.tbd in Frameworks */,
+				F63657D0208E5E79006A77C3 /* ImageIO.framework in Frameworks */,
+				F63657CE208E5E73006A77C3 /* GLKit.framework in Frameworks */,
+				F63657CC208E5E6D006A77C3 /* CoreText.framework in Frameworks */,
+				F63657CA208E5E66006A77C3 /* CoreTelephony.framework in Frameworks */,
+				F63657C8208E5E52006A77C3 /* CoreLocation.framework in Frameworks */,
+				F63657C6208E5E2D006A77C3 /* CoreImage.framework in Frameworks */,
+				F63657C4208E5E26006A77C3 /* CoreGraphics.framework in Frameworks */,
+				F63657C2208E5E09006A77C3 /* CoreData.framework in Frameworks */,
+				F63657C0208E5DFE006A77C3 /* Accelerate.framework in Frameworks */,
+				F63657B9208E5D68006A77C3 /* GoogleMaps.framework in Frameworks */,
+				F63657BB208E5D73006A77C3 /* GoogleMapsCore.framework in Frameworks */,
+				F63657B7208E5D58006A77C3 /* GoogleMapsBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +213,12 @@
 		E39E50F72079489D0025618F = {
 			isa = PBXGroup;
 			children = (
+				F6BE0CAD20A6894400589272 /* Rock.mp3 */,
 				E39E51022079489D0025618F /* QuickCart */,
 				E39E51172079489E0025618F /* QuickCartTests */,
 				E39E51222079489E0025618F /* QuickCartUITests */,
 				E39E51012079489D0025618F /* Products */,
+				F63657BE208E5DFE006A77C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +235,19 @@
 		E39E51022079489D0025618F /* QuickCart */ = {
 			isa = PBXGroup;
 			children = (
+				F63657BC208E5DBA006A77C3 /* GoogleMaps.bundle */,
+				F63657BA208E5D73006A77C3 /* GoogleMapsCore.framework */,
+				F63657B6208E5D58006A77C3 /* GoogleMapsBase.framework */,
 				E39E51032079489D0025618F /* AppDelegate.swift */,
-				E39E51052079489D0025618F /* ViewController.swift */,
+				F63657B8208E5D68006A77C3 /* GoogleMaps.framework */,
+				E39E51052079489D0025618F /* VendorViewController.swift */,
+				E39E513120795DB10025618F /* VendorTableViewCell.swift */,
+				E39EC7A9208F8F340039D020 /* ShoppingCart.swift */,
+				E3C2828320796ED800755EA5 /* VendorTableViewController.swift */,
+				F63657DD208E658F006A77C3 /* MapViewController.swift */,
 				E39E51072079489D0025618F /* Main.storyboard */,
+				E39EC7AB208F90D50039D020 /* ShoppingCartViewController.swift */,
+				F672EBB920910C17007DBE63 /* FoodTableViewCell.swift */,
 				E39E510A2079489D0025618F /* Assets.xcassets */,
 				E39E510C2079489D0025618F /* LaunchScreen.storyboard */,
 				E39E510F2079489D0025618F /* Info.plist */,
@@ -125,6 +273,45 @@
 			path = QuickCartUITests;
 			sourceTree = "<group>";
 		};
+		F602EAD420915FAA005135CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F602EADF20915FAB005135CD /* Alamofire.framework */,
+				F602EAE120915FAB005135CD /* Alamofire iOS Tests.xctest */,
+				F602EAE320915FAB005135CD /* Alamofire.framework */,
+				F602EAE520915FAB005135CD /* Alamofire macOS Tests.xctest */,
+				F602EAE720915FAB005135CD /* Alamofire.framework */,
+				F602EAE920915FAB005135CD /* Alamofire tvOS Tests.xctest */,
+				F602EAEB20915FAB005135CD /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63657BE208E5DFE006A77C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F664EDAD20A6555900975298 /* AVFoundation.framework */,
+				E354B3B620920C73009A9514 /* Alamofire-master */,
+				F602EAD320915FAA005135CD /* Alamofire.xcodeproj */,
+				F63657DB208E5EA8006A77C3 /* UIKit.framework */,
+				F63657D9208E5EA1006A77C3 /* SystemConfiguration.framework */,
+				F63657D7208E5E9A006A77C3 /* QuartzCore.framework */,
+				F63657D5208E5E93006A77C3 /* OpenGLES.framework */,
+				F63657D3208E5E8B006A77C3 /* libz.tbd */,
+				F63657D1208E5E82006A77C3 /* libc++.tbd */,
+				F63657CF208E5E79006A77C3 /* ImageIO.framework */,
+				F63657CD208E5E73006A77C3 /* GLKit.framework */,
+				F63657CB208E5E6D006A77C3 /* CoreText.framework */,
+				F63657C9208E5E66006A77C3 /* CoreTelephony.framework */,
+				F63657C7208E5E52006A77C3 /* CoreLocation.framework */,
+				F63657C5208E5E2D006A77C3 /* CoreImage.framework */,
+				F63657C3208E5E26006A77C3 /* CoreGraphics.framework */,
+				F63657C1208E5E09006A77C3 /* CoreData.framework */,
+				F63657BF208E5DFE006A77C3 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +326,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F602EAED20915FEA005135CD /* PBXTargetDependency */,
 			);
 			name = QuickCart;
 			productName = QuickCart;
@@ -188,7 +376,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Julie;
 				TargetAttributes = {
 					E39E50FF2079489D0025618F = {
@@ -218,6 +406,12 @@
 			mainGroup = E39E50F72079489D0025618F;
 			productRefGroup = E39E51012079489D0025618F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F602EAD420915FAA005135CD /* Products */;
+					ProjectRef = F602EAD320915FAA005135CD /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E39E50FF2079489D0025618F /* QuickCart */,
@@ -227,14 +421,69 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F602EADF20915FAB005135CD /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F602EADE20915FAB005135CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F602EAE120915FAB005135CD /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = F602EAE020915FAB005135CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F602EAE320915FAB005135CD /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F602EAE220915FAB005135CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F602EAE520915FAB005135CD /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = F602EAE420915FAB005135CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F602EAE720915FAB005135CD /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F602EAE620915FAB005135CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F602EAE920915FAB005135CD /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = F602EAE820915FAB005135CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F602EAEB20915FAB005135CD /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F602EAEA20915FAB005135CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		E39E50FE2079489D0025618F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E39E510E2079489D0025618F /* LaunchScreen.storyboard in Resources */,
+				E354B3BE20920C74009A9514 /* Alamofire-master in Resources */,
 				E39E510B2079489D0025618F /* Assets.xcassets in Resources */,
+				F6BE0CAE20A6894500589272 /* Rock.mp3 in Resources */,
 				E39E51092079489D0025618F /* Main.storyboard in Resources */,
+				F63657BD208E5DBA006A77C3 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +491,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6BE0CAF20A6894500589272 /* Rock.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +499,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6BE0CB020A6894500589272 /* Rock.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +510,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39E51062079489D0025618F /* ViewController.swift in Sources */,
+				E39E513220795DB10025618F /* VendorTableViewCell.swift in Sources */,
+				E39EC7AC208F90D50039D020 /* ShoppingCartViewController.swift in Sources */,
+				E39EC7AA208F8F340039D020 /* ShoppingCart.swift in Sources */,
+				E39E51062079489D0025618F /* VendorViewController.swift in Sources */,
 				E39E51042079489D0025618F /* AppDelegate.swift in Sources */,
+				F672EBBA20910C17007DBE63 /* FoodTableViewCell.swift in Sources */,
+				F63657DE208E658F006A77C3 /* MapViewController.swift in Sources */,
+				E3C2828420796ED800755EA5 /* VendorTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +549,11 @@
 			isa = PBXTargetDependency;
 			target = E39E50FF2079489D0025618F /* QuickCart */;
 			targetProxy = E39E51202079489E0025618F /* PBXContainerItemProxy */;
+		};
+		F602EAED20915FEA005135CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = F602EAEC20915FEA005135CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -329,6 +591,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +599,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +650,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +658,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -427,7 +693,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QuickCart",
+				);
 				INFOPLIST_FILE = QuickCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Julie.QuickCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +712,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QuickCart",
+				);
 				INFOPLIST_FILE = QuickCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Julie.QuickCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
